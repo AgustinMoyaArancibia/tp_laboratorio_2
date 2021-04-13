@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Entidades
 {
-    class Calculadora
+   public static class Calculadora
     {
+
+
+
+
     }
 }
