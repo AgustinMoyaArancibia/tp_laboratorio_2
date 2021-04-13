@@ -104,7 +104,6 @@ namespace MiCalculadora
             this.txtNumeroUno.Name = "txtNumeroUno";
             this.txtNumeroUno.Size = new System.Drawing.Size(100, 20);
             this.txtNumeroUno.TabIndex = 6;
-            this.txtNumeroUno.Text = "numero1";
             this.txtNumeroUno.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // txtNumeroDos
@@ -113,7 +112,6 @@ namespace MiCalculadora
             this.txtNumeroDos.Name = "txtNumeroDos";
             this.txtNumeroDos.Size = new System.Drawing.Size(100, 20);
             this.txtNumeroDos.TabIndex = 7;
-            this.txtNumeroDos.Text = "numero2";
             this.txtNumeroDos.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // label1
@@ -124,6 +122,7 @@ namespace MiCalculadora
             this.label1.Size = new System.Drawing.Size(35, 13);
             this.label1.TabIndex = 8;
             this.label1.Text = "label1";
+            this.label1.Click += new System.EventHandler(this.label1_Click_1);
             // 
             // calculadora
             // 
