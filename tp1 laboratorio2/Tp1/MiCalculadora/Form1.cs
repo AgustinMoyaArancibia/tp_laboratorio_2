@@ -65,7 +65,19 @@ namespace MiCalculadora
 
         private void BtnAbinario_Click(object sender, EventArgs e)
         {
-            this.lblRestultado.Text = Numero.DecimalBinario(this.txtNumeroUno.Text);
+            if(this.lblRestultado.Text != "resultado") 
+            {
+              this.lblRestultado.Text = Numero.DecimalBinario(this.lblRestultado.Text);
+            }
+            
+        }
+
+        private void BtnAdecimal_Click(object sender, EventArgs e)
+        {
+            if(this.lblRestultado.Text != "resultado" || this.lblRestultado.Text != "valor invalido")
+            {
+                this.lblRestultado.Text = Numero.BinarioDecimal(this.lblRestultado.Text);
+            }
         }
     }
 }

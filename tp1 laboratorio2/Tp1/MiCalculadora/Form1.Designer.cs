@@ -88,6 +88,7 @@ namespace MiCalculadora
             this.BtnAdecimal.TabIndex = 4;
             this.BtnAdecimal.Text = "Convertir a Decimal";
             this.BtnAdecimal.UseVisualStyleBackColor = true;
+            this.BtnAdecimal.Click += new System.EventHandler(this.BtnAdecimal_Click);
             // 
             // cmbOperaciones
             // 
