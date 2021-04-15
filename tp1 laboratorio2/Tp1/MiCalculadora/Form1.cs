@@ -24,7 +24,7 @@ namespace MiCalculadora
         {
             double resultado = 0;
             
-            if(this.cmbOperaciones.SelectedItem == null )// si el item elegido es null , queda fijado el +
+            if(this.cmbOperaciones.SelectedItem == null )// si no elige ningun item , queda fijado el +
             {
                 this.cmbOperaciones.Text = "+";
             }
@@ -32,7 +32,7 @@ namespace MiCalculadora
             {
                 resultado = Operar(this.txtNumeroUno.Text, this.txtNumeroDos.Text, this.cmbOperaciones.SelectedItem.ToString());
             }
-
+            //llamo al metodo operar que en el metodo mas abajo llama a operar de la clase calclulador
 
             this.lblRestultado.Text = resultado.ToString(); // asigno el resultado en el label resultado
 ;        }
