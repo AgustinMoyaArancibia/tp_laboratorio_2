@@ -18,25 +18,7 @@ namespace MiCalculadora
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox2_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click_1(object sender, EventArgs e)
-        {
-
-        }
+      
 
         private void BtnOperar_Click(object sender, EventArgs e)
         {
@@ -70,6 +52,20 @@ namespace MiCalculadora
         private void BtnCerrar_Click(object sender, EventArgs e)
         {
             this.Close(); // cierro todo
+        }
+
+        private void BtnLimpiar_Click(object sender, EventArgs e)
+        {
+            this.txtNumeroUno.Clear();
+            this.txtNumeroDos.Clear();
+            this.cmbOperaciones.ResetText();
+            this.cmbOperaciones.Text = null;
+            this.lblRestultado.Text = "resultado";
+        }
+
+        private void BtnAbinario_Click(object sender, EventArgs e)
+        {
+            this.lblRestultado.Text = Numero.DecimalBinario(this.txtNumeroUno.Text);
         }
     }
 }

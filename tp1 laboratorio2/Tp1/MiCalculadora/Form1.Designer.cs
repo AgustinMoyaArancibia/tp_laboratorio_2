@@ -58,6 +58,7 @@ namespace MiCalculadora
             this.BtnLimpiar.TabIndex = 1;
             this.BtnLimpiar.Text = "Limpiar";
             this.BtnLimpiar.UseVisualStyleBackColor = true;
+            this.BtnLimpiar.Click += new System.EventHandler(this.BtnLimpiar_Click);
             // 
             // BtnCerrar
             // 
@@ -77,6 +78,7 @@ namespace MiCalculadora
             this.BtnAbinario.TabIndex = 3;
             this.BtnAbinario.Text = "Convertir a Binario";
             this.BtnAbinario.UseVisualStyleBackColor = true;
+            this.BtnAbinario.Click += new System.EventHandler(this.BtnAbinario_Click);
             // 
             // BtnAdecimal
             // 
@@ -106,7 +108,6 @@ namespace MiCalculadora
             this.txtNumeroUno.Name = "txtNumeroUno";
             this.txtNumeroUno.Size = new System.Drawing.Size(100, 20);
             this.txtNumeroUno.TabIndex = 6;
-            this.txtNumeroUno.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // txtNumeroDos
             // 
@@ -114,7 +115,6 @@ namespace MiCalculadora
             this.txtNumeroDos.Name = "txtNumeroDos";
             this.txtNumeroDos.Size = new System.Drawing.Size(100, 20);
             this.txtNumeroDos.TabIndex = 7;
-            this.txtNumeroDos.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // lblRestultado
             // 
@@ -124,7 +124,6 @@ namespace MiCalculadora
             this.lblRestultado.Size = new System.Drawing.Size(50, 13);
             this.lblRestultado.TabIndex = 8;
             this.lblRestultado.Text = "resultado";
-            this.lblRestultado.Click += new System.EventHandler(this.label1_Click_1);
             // 
             // calculadora
             // 
