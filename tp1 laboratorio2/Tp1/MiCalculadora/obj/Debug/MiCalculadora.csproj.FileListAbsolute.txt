@@ -8,3 +8,6 @@ C:\Users\agusf\Desktop\tp_laboratorio_2\tp1 laboratorio2\Tp1\MiCalculadora\obj\D
 C:\Users\agusf\Desktop\tp_laboratorio_2\tp1 laboratorio2\Tp1\MiCalculadora\obj\Debug\MiCalculadora.csproj.CoreCompileInputs.cache
 C:\Users\agusf\Desktop\tp_laboratorio_2\tp1 laboratorio2\Tp1\MiCalculadora\obj\Debug\MiCalculadora.exe
 C:\Users\agusf\Desktop\tp_laboratorio_2\tp1 laboratorio2\Tp1\MiCalculadora\obj\Debug\MiCalculadora.pdb
+C:\Users\agusf\Desktop\tp_laboratorio_2\tp1 laboratorio2\Tp1\MiCalculadora\bin\Debug\Entidades.dll
+C:\Users\agusf\Desktop\tp_laboratorio_2\tp1 laboratorio2\Tp1\MiCalculadora\bin\Debug\Entidades.pdb
+C:\Users\agusf\Desktop\tp_laboratorio_2\tp1 laboratorio2\Tp1\MiCalculadora\obj\Debug\MiCalculadora.csproj.CopyComplete

@@ -34,10 +34,10 @@ namespace MiCalculadora
             this.BtnCerrar = new System.Windows.Forms.Button();
             this.BtnAbinario = new System.Windows.Forms.Button();
             this.BtnAdecimal = new System.Windows.Forms.Button();
-            this.CbxOperaciones = new System.Windows.Forms.ComboBox();
+            this.cmbOperaciones = new System.Windows.Forms.ComboBox();
             this.txtNumeroUno = new System.Windows.Forms.TextBox();
             this.txtNumeroDos = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
+            this.lblRestultado = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // BtnOperar
@@ -48,6 +48,7 @@ namespace MiCalculadora
             this.BtnOperar.TabIndex = 0;
             this.BtnOperar.Text = "Operar";
             this.BtnOperar.UseVisualStyleBackColor = true;
+            this.BtnOperar.Click += new System.EventHandler(this.BtnOperar_Click);
             // 
             // BtnLimpiar
             // 
@@ -66,6 +67,7 @@ namespace MiCalculadora
             this.BtnCerrar.TabIndex = 2;
             this.BtnCerrar.Text = "Cerrar";
             this.BtnCerrar.UseVisualStyleBackColor = true;
+            this.BtnCerrar.Click += new System.EventHandler(this.BtnCerrar_Click);
             // 
             // BtnAbinario
             // 
@@ -85,18 +87,18 @@ namespace MiCalculadora
             this.BtnAdecimal.Text = "Convertir a Decimal";
             this.BtnAdecimal.UseVisualStyleBackColor = true;
             // 
-            // CbxOperaciones
+            // cmbOperaciones
             // 
-            this.CbxOperaciones.FormattingEnabled = true;
-            this.CbxOperaciones.Items.AddRange(new object[] {
+            this.cmbOperaciones.FormattingEnabled = true;
+            this.cmbOperaciones.Items.AddRange(new object[] {
             "+",
             "-",
             "/",
             "*"});
-            this.CbxOperaciones.Location = new System.Drawing.Point(183, 84);
-            this.CbxOperaciones.Name = "CbxOperaciones";
-            this.CbxOperaciones.Size = new System.Drawing.Size(124, 21);
-            this.CbxOperaciones.TabIndex = 5;
+            this.cmbOperaciones.Location = new System.Drawing.Point(183, 84);
+            this.cmbOperaciones.Name = "cmbOperaciones";
+            this.cmbOperaciones.Size = new System.Drawing.Size(124, 21);
+            this.cmbOperaciones.TabIndex = 5;
             // 
             // txtNumeroUno
             // 
@@ -114,31 +116,32 @@ namespace MiCalculadora
             this.txtNumeroDos.TabIndex = 7;
             this.txtNumeroDos.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
-            // label1
+            // lblRestultado
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(415, 41);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
-            this.label1.TabIndex = 8;
-            this.label1.Text = "label1";
-            this.label1.Click += new System.EventHandler(this.label1_Click_1);
+            this.lblRestultado.AutoSize = true;
+            this.lblRestultado.Location = new System.Drawing.Point(415, 41);
+            this.lblRestultado.Name = "lblRestultado";
+            this.lblRestultado.Size = new System.Drawing.Size(50, 13);
+            this.lblRestultado.TabIndex = 8;
+            this.lblRestultado.Text = "resultado";
+            this.lblRestultado.Click += new System.EventHandler(this.label1_Click_1);
             // 
             // calculadora
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(506, 284);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lblRestultado);
             this.Controls.Add(this.txtNumeroDos);
             this.Controls.Add(this.txtNumeroUno);
-            this.Controls.Add(this.CbxOperaciones);
+            this.Controls.Add(this.cmbOperaciones);
             this.Controls.Add(this.BtnAdecimal);
             this.Controls.Add(this.BtnAbinario);
             this.Controls.Add(this.BtnCerrar);
             this.Controls.Add(this.BtnLimpiar);
             this.Controls.Add(this.BtnOperar);
             this.Name = "calculadora";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Calculadora de agustin moya del curso 2°D";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -152,10 +155,10 @@ namespace MiCalculadora
         private System.Windows.Forms.Button BtnCerrar;
         private System.Windows.Forms.Button BtnAbinario;
         private System.Windows.Forms.Button BtnAdecimal;
-        private System.Windows.Forms.ComboBox CbxOperaciones;
+        private System.Windows.Forms.ComboBox cmbOperaciones;
         private System.Windows.Forms.TextBox txtNumeroUno;
         private System.Windows.Forms.TextBox txtNumeroDos;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblRestultado;
     }
 }
 
