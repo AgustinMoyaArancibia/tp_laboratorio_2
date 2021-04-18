@@ -19,7 +19,11 @@ namespace MiCalculadora
         }
 
       
-
+        /// <summary>
+        /// boton operar , realiza el llamado al metodo de operaciones y valida
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void BtnOperar_Click(object sender, EventArgs e)
         {
             double resultado = 0;
@@ -37,6 +41,13 @@ namespace MiCalculadora
             this.lblRestultado.Text = resultado.ToString(); // asigno el resultado en el label resultado
 ;        }
 
+        /// <summary>
+        /// crea dos objetos del tipo numero y llama al metodo operar desde Calculadora
+        /// </summary>
+        /// <param name="numero1"> elemento creado de Numero</param>
+        /// <param name="numero2">elemento creado de Numero</param>
+        /// <param name="operador">operador usado + - / * </param>
+        /// <returns></returns>
         public static double Operar(string numero1, string numero2,string operador) 
         {
             double resultado = 0;
@@ -49,11 +60,21 @@ namespace MiCalculadora
             return resultado;
         }
 
+        /// <summary>
+        /// cierra la aplicacion
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void BtnCerrar_Click(object sender, EventArgs e)
         {
             this.Close(); // cierro todo
         }
 
+        /// <summary>
+        /// reseteo los valores , (limpiar)
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void BtnLimpiar_Click(object sender, EventArgs e)
         {
             this.txtNumeroUno.Clear();
@@ -63,6 +84,11 @@ namespace MiCalculadora
             this.lblRestultado.Text = "resultado";
         }
 
+        /// <summary>
+        /// llamo al metodo DecimalBinario para convertir nmero en binario
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void BtnAbinario_Click(object sender, EventArgs e)
         {
             if(this.lblRestultado.Text != "resultado") 
@@ -72,6 +98,11 @@ namespace MiCalculadora
             
         }
 
+        /// <summary>
+        /// llamo al metodo BinarioDecimal para convertir el numero
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void BtnAdecimal_Click(object sender, EventArgs e)
         {
             if(this.lblRestultado.Text != "resultado" || this.lblRestultado.Text != "valor invalido")

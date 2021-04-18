@@ -14,7 +14,13 @@ namespace Entidades
         /// <summary>
         /// Valida si el dato es del tipo numero y lo asigna a numero
         /// </summary>
-        public string SetNumero { set => numero = ValidarNumero(value); }
+        private string SetNumero
+        {
+            set
+            {
+                this.numero = ValidarNumero(value);
+            }
+        }
 
         /// <summary>
         /// constructor por defecto
