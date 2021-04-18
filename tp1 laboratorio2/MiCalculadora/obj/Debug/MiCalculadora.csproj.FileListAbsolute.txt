@@ -11,3 +11,16 @@ C:\Users\agusf\Desktop\tp_laboratorio_2\tp1 laboratorio2\Tp1\MiCalculadora\obj\D
 C:\Users\agusf\Desktop\tp_laboratorio_2\tp1 laboratorio2\Tp1\MiCalculadora\bin\Debug\Entidades.dll
 C:\Users\agusf\Desktop\tp_laboratorio_2\tp1 laboratorio2\Tp1\MiCalculadora\bin\Debug\Entidades.pdb
 C:\Users\agusf\Desktop\tp_laboratorio_2\tp1 laboratorio2\Tp1\MiCalculadora\obj\Debug\MiCalculadora.csproj.CopyComplete
+C:\Users\agusf\Desktop\tp_laboratorio_2\tp1 laboratorio2\MiCalculadora\bin\Debug\MiCalculadora.exe.config
+C:\Users\agusf\Desktop\tp_laboratorio_2\tp1 laboratorio2\MiCalculadora\bin\Debug\MiCalculadora.exe
+C:\Users\agusf\Desktop\tp_laboratorio_2\tp1 laboratorio2\MiCalculadora\bin\Debug\MiCalculadora.pdb
+C:\Users\agusf\Desktop\tp_laboratorio_2\tp1 laboratorio2\MiCalculadora\bin\Debug\Entidades.dll
+C:\Users\agusf\Desktop\tp_laboratorio_2\tp1 laboratorio2\MiCalculadora\bin\Debug\Entidades.pdb
+C:\Users\agusf\Desktop\tp_laboratorio_2\tp1 laboratorio2\MiCalculadora\obj\Debug\MiCalculadora.csprojAssemblyReference.cache
+C:\Users\agusf\Desktop\tp_laboratorio_2\tp1 laboratorio2\MiCalculadora\obj\Debug\MiCalculadora.calculadora.resources
+C:\Users\agusf\Desktop\tp_laboratorio_2\tp1 laboratorio2\MiCalculadora\obj\Debug\MiCalculadora.Properties.Resources.resources
+C:\Users\agusf\Desktop\tp_laboratorio_2\tp1 laboratorio2\MiCalculadora\obj\Debug\MiCalculadora.csproj.GenerateResource.cache
+C:\Users\agusf\Desktop\tp_laboratorio_2\tp1 laboratorio2\MiCalculadora\obj\Debug\MiCalculadora.csproj.CoreCompileInputs.cache
+C:\Users\agusf\Desktop\tp_laboratorio_2\tp1 laboratorio2\MiCalculadora\obj\Debug\MiCalculadora.csproj.CopyComplete
+C:\Users\agusf\Desktop\tp_laboratorio_2\tp1 laboratorio2\MiCalculadora\obj\Debug\MiCalculadora.exe
+C:\Users\agusf\Desktop\tp_laboratorio_2\tp1 laboratorio2\MiCalculadora\obj\Debug\MiCalculadora.pdb
