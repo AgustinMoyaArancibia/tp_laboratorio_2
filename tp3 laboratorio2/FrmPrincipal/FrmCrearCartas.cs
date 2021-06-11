@@ -21,20 +21,20 @@ namespace FrmPrincipal
 
         public List<Carta> miDeck;
         List<Carta> cartasDisponibles;
-      
-      
+
+
         public FrmCrearCartas()
         {
             InitializeComponent();
             miDeck = new List<Carta>();
             cartasDisponibles = new List<Carta>();
-            
+
 
         }
 
         private void FrmCrearCartas_Load(object sender, EventArgs e)
         {
-            
+
 
 
             rtbInfoMateriales.Text = FabricaPegasus.MostrarMaterialesFabrica();
@@ -44,7 +44,7 @@ namespace FrmPrincipal
             Xml<List<Carta>> xml = new Xml<List<Carta>>(); //creo archivo xml
             xml.Leer(ruta, out cartasDisponibles); //leo
             this.gdvCartasPorCrear.DataSource = cartasDisponibles; //se lo paso al datagreed
-         
+
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -64,20 +64,17 @@ namespace FrmPrincipal
                 FabricaPegasus.Carton -= carta.Carton;
 
                 carta.Stock++;
-                //foreach (Carta item in cartasDisponibles)
-                //{
-                //    item.Stock += 1;
-                //}
+             
             }
-            else 
+            else
             {
                 MessageBox.Show("compre mas materiales para seguir reponiendo stock");
             }
 
-                rtbInfoMateriales.Text = FabricaPegasus.MostrarMaterialesFabrica();
-                this.gdvCartasPorCrear.DataSource = cartasDisponibles; //se lo paso al datagreed
-                
-           
+            rtbInfoMateriales.Text = FabricaPegasus.MostrarMaterialesFabrica();
+            this.gdvCartasPorCrear.DataSource = cartasDisponibles; //se lo paso al datagreed
+
+
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -85,7 +82,7 @@ namespace FrmPrincipal
             Program.frmFabricaPegasus.Show();
             this.Close();
 
-            
+
         }
 
         private void btnComprarMateriales_Click(object sender, EventArgs e)

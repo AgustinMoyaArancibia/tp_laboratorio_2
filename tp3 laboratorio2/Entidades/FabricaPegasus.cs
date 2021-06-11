@@ -15,16 +15,6 @@ namespace Entidades
         static int madera;
         static int carton;
 
-        //public FabricaPegasus(int porcentajeTinta, int madera, int carton)
-        //{
-        //    this.PorcentajeTinta = porcentajeTinta;
-        //    this.Madera = madera;
-        //    this.Carton = carton;
-        //}
-
-
-
-
 
         public static int PorcentajeTinta { get => porcentajeTinta; set => porcentajeTinta = value; }
         public static int Madera { get => madera; set => madera = value; }
