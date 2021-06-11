@@ -65,6 +65,7 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FaltaMateriasExcepcion.cs" />
     <Compile Include="FrmFrabricaPegasus.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -130,6 +131,10 @@
     <ProjectReference Include="..\Entidades\Entidades.csproj">
       <Project>{50e43832-436d-4747-b743-f0491ac170ff}</Project>
       <Name>Entidades</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Excepciones\Excepciones.csproj">
+      <Project>{4a215149-5520-436d-b736-ab2faeeef59d}</Project>
+      <Name>Excepciones</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
