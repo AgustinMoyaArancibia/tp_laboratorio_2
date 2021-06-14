@@ -1,0 +1,15 @@
+cantidad de carton disponible: 0
+Cantidad de tinta disponible: 0
+Cantidad de madera: 0
+13/6/2021 21:57:34
+
+cantidad de carton disponible: 3
+Cantidad de tinta disponible: 3
+Cantidad de madera: 3
+13/6/2021 21:59:44
+
+cantidad de carton disponible: 0
+Cantidad de tinta disponible: 0
+Cantidad de madera: 0
+13/6/2021 22:00:20
+

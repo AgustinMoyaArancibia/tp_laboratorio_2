@@ -65,7 +65,6 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FaltaMateriasExcepcion.cs" />
     <Compile Include="FrmFrabricaPegasus.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -78,11 +77,11 @@
     <Compile Include="FrmCrearCartas.Designer.cs">
       <DependentUpon>FrmCrearCartas.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmCrearDeck.cs">
+    <Compile Include="FrmComprarCartas.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmCrearDeck.Designer.cs">
-      <DependentUpon>FrmCrearDeck.cs</DependentUpon>
+    <Compile Include="FrmComprarCartas.Designer.cs">
+      <DependentUpon>FrmComprarCartas.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -92,8 +91,8 @@
     <EmbeddedResource Include="FrmCrearCartas.resx">
       <DependentUpon>FrmCrearCartas.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmCrearDeck.resx">
-      <DependentUpon>FrmCrearDeck.cs</DependentUpon>
+    <EmbeddedResource Include="FrmComprarCartas.resx">
+      <DependentUpon>FrmComprarCartas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

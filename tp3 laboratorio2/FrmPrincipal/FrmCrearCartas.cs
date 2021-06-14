@@ -19,35 +19,28 @@ namespace FrmPrincipal
     public partial class FrmCrearCartas : Form
     {
 
-        public List<Carta> miDeck;
-        List<Carta> cartasDisponibles;
 
 
         public FrmCrearCartas()
         {
             InitializeComponent();
-            miDeck = new List<Carta>();
-            cartasDisponibles = new List<Carta>();
-
+          
 
         }
 
         private void FrmCrearCartas_Load(object sender, EventArgs e)
         {
-
-
+            
 
             rtbInfoMateriales.Text = FabricaPegasus.MostrarMaterialesFabrica();
+          
+            this.gdvCartasPorCrear.DataSource = FabricaPegasus.Cartas; //se lo paso al datagreed
 
-
-            string ruta = AppDomain.CurrentDomain.BaseDirectory + "ListaCartas.xml"; //busco la direccion del archvio junto a su nombre
-            Xml<List<Carta>> xml = new Xml<List<Carta>>(); //creo archivo xml
-            xml.Leer(ruta, out cartasDisponibles); //leo
-            this.gdvCartasPorCrear.DataSource = cartasDisponibles; //se lo paso al datagreed
-
+            string rutaTxt = AppDomain.CurrentDomain.BaseDirectory + "MisMateriales.txt";
+            rtbInfoCompras.Text = FabricaPegasus.LeerMaterialesTxt(rutaTxt);
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void btnReponesStock_Click(object sender, EventArgs e)
         {
             Carta carta = gdvCartasPorCrear.CurrentRow.DataBoundItem as Carta; // obtengo la fila seleccionada y la convierto en carta
 
@@ -72,13 +65,21 @@ namespace FrmPrincipal
             }
 
             rtbInfoMateriales.Text = FabricaPegasus.MostrarMaterialesFabrica();
-            this.gdvCartasPorCrear.DataSource = cartasDisponibles; //se lo paso al datagreed
+            this.gdvCartasPorCrear.DataSource = FabricaPegasus.Cartas; //se lo paso al datagreed
 
 
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void btnSalirguardar_Click(object sender, EventArgs e)
         {
+            bool pudo;
+            string rutaTxt = AppDomain.CurrentDomain.BaseDirectory + "MisMateriales.txt"; //directorio + nombre archivo
+            FabricaPegasus.GuardarMaterialesTxt(rutaTxt);
+
+            string ruta1 = AppDomain.CurrentDomain.BaseDirectory + "ListaCartas.xml"; //directorio + nombre archivo
+            Xml<List<Carta>> xml1 = new Xml<List<Carta>>();
+            pudo = xml1.Guardar(ruta1, FabricaPegasus.ActualizarCartas());
+
             Program.frmFabricaPegasus.Show();
             this.Close();
 
@@ -93,7 +94,9 @@ namespace FrmPrincipal
             FabricaPegasus.Madera += 3;
             rtbInfoMateriales.Text = FabricaPegasus.MostrarMaterialesFabrica();
 
-
+           
         }
+
+       
     }
 }

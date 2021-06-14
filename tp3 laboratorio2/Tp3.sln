@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Archivos", "Archivos\Archiv
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Excepciones", "Excepciones\Excepciones.csproj", "{4A215149-5520-436D-B736-AB2FAEEEF59D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{03AA9C7B-5847-4E15-BB3E-C079F573B666}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestUnitarios", "TestUnitarios\TestUnitarios.csproj", "{69752322-D3BB-4642-B4BD-50C8CB17496B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{4A215149-5520-436D-B736-AB2FAEEEF59D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4A215149-5520-436D-B736-AB2FAEEEF59D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4A215149-5520-436D-B736-AB2FAEEEF59D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03AA9C7B-5847-4E15-BB3E-C079F573B666}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03AA9C7B-5847-4E15-BB3E-C079F573B666}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03AA9C7B-5847-4E15-BB3E-C079F573B666}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03AA9C7B-5847-4E15-BB3E-C079F573B666}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69752322-D3BB-4642-B4BD-50C8CB17496B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69752322-D3BB-4642-B4BD-50C8CB17496B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69752322-D3BB-4642-B4BD-50C8CB17496B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69752322-D3BB-4642-B4BD-50C8CB17496B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

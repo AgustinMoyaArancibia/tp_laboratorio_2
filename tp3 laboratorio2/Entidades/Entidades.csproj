@@ -49,5 +49,15 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Trampa.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Archivos\Archivos.csproj">
+      <Project>{51157dec-8dee-46ee-b280-68a3d043acef}</Project>
+      <Name>Archivos</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Excepciones\Excepciones.csproj">
+      <Project>{4a215149-5520-436d-b736-ab2faeeef59d}</Project>
+      <Name>Excepciones</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

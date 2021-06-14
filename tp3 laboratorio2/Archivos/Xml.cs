@@ -11,7 +11,7 @@ using Excepciones;
 
 namespace Archivos
 {
-    public class Xml<T> 
+    public class Xml<T> : IArchivo<T>
     {
         /// <summary>
         /// Guarda un archivo en formato xml

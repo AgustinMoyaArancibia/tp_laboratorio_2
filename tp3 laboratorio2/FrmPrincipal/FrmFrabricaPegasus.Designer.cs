@@ -31,7 +31,7 @@ namespace FrmPrincipal
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmFabricaPegasus));
             this.btnCreacionCartas = new System.Windows.Forms.Button();
-            this.btnCreacionDeck = new System.Windows.Forms.Button();
+            this.btnComprarCarta = new System.Windows.Forms.Button();
             this.btnSalir = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -43,17 +43,17 @@ namespace FrmPrincipal
             this.btnCreacionCartas.TabIndex = 0;
             this.btnCreacionCartas.Text = "Creacion Cartas";
             this.btnCreacionCartas.UseVisualStyleBackColor = true;
-            this.btnCreacionCartas.Click += new System.EventHandler(this.button1_Click);
+            this.btnCreacionCartas.Click += new System.EventHandler(this.btnCreacionCartas_Click_1);
             // 
-            // btnCreacionDeck
+            // btnComprarCarta
             // 
-            this.btnCreacionDeck.Location = new System.Drawing.Point(366, 167);
-            this.btnCreacionDeck.Name = "btnCreacionDeck";
-            this.btnCreacionDeck.Size = new System.Drawing.Size(325, 92);
-            this.btnCreacionDeck.TabIndex = 1;
-            this.btnCreacionDeck.Text = "Creacion mi Deck";
-            this.btnCreacionDeck.UseVisualStyleBackColor = true;
-            this.btnCreacionDeck.Click += new System.EventHandler(this.button2_Click);
+            this.btnComprarCarta.Location = new System.Drawing.Point(366, 167);
+            this.btnComprarCarta.Name = "btnComprarCarta";
+            this.btnComprarCarta.Size = new System.Drawing.Size(325, 92);
+            this.btnComprarCarta.TabIndex = 1;
+            this.btnComprarCarta.Text = "Comprar carta";
+            this.btnComprarCarta.UseVisualStyleBackColor = true;
+            this.btnComprarCarta.Click += new System.EventHandler(this.btnCreacionDeck_Click_1);
             // 
             // btnSalir
             // 
@@ -63,7 +63,7 @@ namespace FrmPrincipal
             this.btnSalir.TabIndex = 2;
             this.btnSalir.Text = "Salir y Guardar";
             this.btnSalir.UseVisualStyleBackColor = true;
-            this.btnSalir.Click += new System.EventHandler(this.button3_Click);
+            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
             // FrmFabricaPegasus
             // 
@@ -73,13 +73,14 @@ namespace FrmPrincipal
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1084, 461);
             this.Controls.Add(this.btnSalir);
-            this.Controls.Add(this.btnCreacionDeck);
+            this.Controls.Add(this.btnComprarCarta);
             this.Controls.Add(this.btnCreacionCartas);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "FrmFabricaPegasus";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Fabrica pegasus";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FrmFabricaPegasus_FormClosing);
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
 
@@ -88,7 +89,7 @@ namespace FrmPrincipal
         #endregion
 
         private System.Windows.Forms.Button btnCreacionCartas;
-        private System.Windows.Forms.Button btnCreacionDeck;
+        private System.Windows.Forms.Button btnComprarCarta;
         private System.Windows.Forms.Button btnSalir;
     }
 }
