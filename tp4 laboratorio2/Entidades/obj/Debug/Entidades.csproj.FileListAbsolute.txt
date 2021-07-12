@@ -26,3 +26,14 @@ C:\Users\agusf\source\repos\tp4 laboratorio2\Entidades\obj\Debug\Entidades.cspro
 C:\Users\agusf\source\repos\tp4 laboratorio2\Entidades\obj\Debug\Entidades.csproj.CopyComplete
 C:\Users\agusf\source\repos\tp4 laboratorio2\Entidades\obj\Debug\Entidades.dll
 C:\Users\agusf\source\repos\tp4 laboratorio2\Entidades\obj\Debug\Entidades.pdb
+C:\Users\agusf\Desktop\tp_laboratorio_2\tp4 laboratorio2\Entidades\bin\Debug\Entidades.dll
+C:\Users\agusf\Desktop\tp_laboratorio_2\tp4 laboratorio2\Entidades\bin\Debug\Entidades.pdb
+C:\Users\agusf\Desktop\tp_laboratorio_2\tp4 laboratorio2\Entidades\bin\Debug\Archivos.dll
+C:\Users\agusf\Desktop\tp_laboratorio_2\tp4 laboratorio2\Entidades\bin\Debug\Excepciones.dll
+C:\Users\agusf\Desktop\tp_laboratorio_2\tp4 laboratorio2\Entidades\bin\Debug\Archivos.pdb
+C:\Users\agusf\Desktop\tp_laboratorio_2\tp4 laboratorio2\Entidades\bin\Debug\Excepciones.pdb
+C:\Users\agusf\Desktop\tp_laboratorio_2\tp4 laboratorio2\Entidades\obj\Debug\Entidades.csproj.AssemblyReference.cache
+C:\Users\agusf\Desktop\tp_laboratorio_2\tp4 laboratorio2\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\agusf\Desktop\tp_laboratorio_2\tp4 laboratorio2\Entidades\obj\Debug\Entidades.csproj.CopyComplete
+C:\Users\agusf\Desktop\tp_laboratorio_2\tp4 laboratorio2\Entidades\obj\Debug\Entidades.dll
+C:\Users\agusf\Desktop\tp_laboratorio_2\tp4 laboratorio2\Entidades\obj\Debug\Entidades.pdb

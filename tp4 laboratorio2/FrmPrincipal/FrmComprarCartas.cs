@@ -19,11 +19,11 @@ namespace FrmPrincipal
     public partial class FrmComprarCartas : Form
     {
 
-
+        public event delGuardar GuardarEnFrmComprarCartas;
         public FrmComprarCartas()
         {
             InitializeComponent();
-            
+           
         }
 
 
@@ -35,8 +35,8 @@ namespace FrmPrincipal
             this.dtgCartas.DataSource = FabricaPegasus.Cartas; //se lo paso al datagreed
         
             this.richTextBox1.Text = FabricaPegasus.LeerCarta();
-
-
+            GuardarEnFrmComprarCartas -= FabricaPegasus.GuardarTodo;
+            GuardarEnFrmComprarCartas += FabricaPegasus.GuardarTodo;
         }
 
         private void btnMostrarCarta_Click(object sender, EventArgs e)
@@ -49,30 +49,39 @@ namespace FrmPrincipal
 
         private void btnAgregarCarta(object sender, EventArgs e)
         {
-            //bool pudo = false;
+            //bool pudo = false; Persona.InformaCajero -= Archivo.Guardar;
+           
+            
 
             try
             {
-                Carta carta = dtgCartas.CurrentRow.DataBoundItem as Carta; // obtengo la fila seleccionada y la convierto en carta
-                if (carta.Stock > 0)
+                if(GuardarEnFrmComprarCartas != null) 
                 {
-                    FabricaPegasus.Deck.Add(carta);
-                    carta.Stock--;
-                    MessageBox.Show("se agrego la carta a tu deck");
+                   
+                    Carta carta = dtgCartas.CurrentRow.DataBoundItem as Carta; // obtengo la fila seleccionada y la convierto en carta
+                    if (carta.Stock > 0)
+                    {
+                        FabricaPegasus.Deck.Add(carta);
+                        carta.Stock--;
+                        MessageBox.Show("se agrego la carta a tu deck");
 
-             
 
-                  FabricaPegasus.InsertarCarta(carta);
-                    this.richTextBox1.Text = FabricaPegasus.LeerCarta();
-                    this.dtgCartas.DataSource =FabricaPegasus.ActualizarCartas();
+                        this.GuardarEnFrmComprarCartas.Invoke();
+                        FabricaPegasus.InsertarCarta(carta);
+                        this.richTextBox1.Text = FabricaPegasus.LeerCarta();
+                        this.dtgCartas.DataSource = FabricaPegasus.ActualizarCartas();
 
-                    FabricaPegasus.GuardarTodo();
+                        //FabricaPegasus.GuardarTodo();
+                       
 
+                    }
+                    else if (carta.Stock == 0)
+                    {
+                        MessageBox.Show("no hay stock");
+                    }
                 }
-                else if (carta.Stock == 0)
-                {
-                    MessageBox.Show("no hay stock");
-                }
+              
+              
             }
             catch (Exception ex)
             {

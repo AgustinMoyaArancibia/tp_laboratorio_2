@@ -20,9 +20,9 @@ namespace FrmPrincipal
     public partial class FrmCrearCartas : Form
     {
 
-        public event delAumentar AumentoStock;
+       
         Thread hiloMostrarMateriales;
-
+        public event delGuardar GuardarEnFrmCrearCartas;
         public FrmCrearCartas()
         {
             InitializeComponent();
@@ -40,6 +40,9 @@ namespace FrmPrincipal
 
             string rutaTxt = AppDomain.CurrentDomain.BaseDirectory + "MisMateriales.txt"; //leo lista de materiales usados la ultima vez usado en texto
             rtbInfoCompras.Text = FabricaPegasus.LeerMaterialesTxt(rutaTxt);
+
+            GuardarEnFrmCrearCartas -= FabricaPegasus.GuardarTodo;
+            GuardarEnFrmCrearCartas += FabricaPegasus.GuardarTodo;
         }
 
         private void btnReponesStock_Click(object sender, EventArgs e)
@@ -64,7 +67,8 @@ namespace FrmPrincipal
                     MessageBox.Show("compre mas materiales para seguir reponiendo stock");
                 }
 
-                FabricaPegasus.GuardarTodo();
+                //FabricaPegasus.GuardarTodo();
+                this.GuardarEnFrmCrearCartas.Invoke();
                 rtbInfoMateriales.Text = FabricaPegasus.MostrarMaterialesFabrica();
             }
             catch (Exception ex)
@@ -121,7 +125,7 @@ namespace FrmPrincipal
                    {
                        rtbInfoMateriales.Text = FabricaPegasus.MostrarMaterialesFabrica();
 
-                       FabricaPegasus.GuardarTodo();
+                       this.GuardarEnFrmCrearCartas.Invoke();
                    }
                     );
                 }

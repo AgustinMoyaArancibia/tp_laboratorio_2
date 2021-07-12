@@ -73,3 +73,38 @@ Cantidad de madera comprado: 33
 cantidad de carton comprado: 33
 12/7/2021 01:25:28
 
+Cantidad de tinta comprado: 33
+Cantidad de madera comprado: 33
+cantidad de carton comprado: 33
+12/7/2021 02:24:00
+
+Cantidad de tinta comprado: 36
+Cantidad de madera comprado: 36
+cantidad de carton comprado: 36
+12/7/2021 02:27:25
+
+Cantidad de tinta comprado: 39
+Cantidad de madera comprado: 39
+cantidad de carton comprado: 39
+12/7/2021 02:27:31
+
+Cantidad de tinta comprado: 42
+Cantidad de madera comprado: 42
+cantidad de carton comprado: 42
+12/7/2021 02:27:37
+
+Cantidad de tinta comprado: 39
+Cantidad de madera comprado: 39
+cantidad de carton comprado: 39
+12/7/2021 02:27:37
+
+Cantidad de tinta comprado: 42
+Cantidad de madera comprado: 42
+cantidad de carton comprado: 42
+12/7/2021 02:27:43
+
+Cantidad de tinta comprado: 42
+Cantidad de madera comprado: 42
+cantidad de carton comprado: 42
+12/7/2021 02:27:52
+

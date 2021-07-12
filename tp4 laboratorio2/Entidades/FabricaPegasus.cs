@@ -11,12 +11,12 @@ namespace Entidades
 {
 
 
-    public delegate void delAumentar();
+    public delegate void delGuardar();
 
     public static class FabricaPegasus
     {
 
-
+      
         static int porcentajeTinta;
         static int madera;
         static int carton;

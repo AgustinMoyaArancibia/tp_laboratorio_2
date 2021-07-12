@@ -7,7 +7,7 @@ using Archivos;
 namespace TestUnitarios
 {
     [TestClass]
-    public class UnitTest1
+    public class TestTP
     {
         /// <summary>
         /// analiza si se agergo una carta a la lista 
