@@ -1,0 +1,11 @@
+C:\Users\agusf\source\repos\Tp3\Excepciones\bin\Debug\Excepciones.dll
+C:\Users\agusf\source\repos\Tp3\Excepciones\bin\Debug\Excepciones.pdb
+C:\Users\agusf\source\repos\Tp3\Excepciones\obj\Debug\Excepciones.csproj.CoreCompileInputs.cache
+C:\Users\agusf\source\repos\Tp3\Excepciones\obj\Debug\Excepciones.dll
+C:\Users\agusf\source\repos\Tp3\Excepciones\obj\Debug\Excepciones.pdb
+C:\Users\agusf\source\repos\tp4 laboratorio2\Excepciones\bin\Debug\Excepciones.dll
+C:\Users\agusf\source\repos\tp4 laboratorio2\Excepciones\bin\Debug\Excepciones.pdb
+C:\Users\agusf\source\repos\tp4 laboratorio2\Excepciones\obj\Debug\Excepciones.csproj.AssemblyReference.cache
+C:\Users\agusf\source\repos\tp4 laboratorio2\Excepciones\obj\Debug\Excepciones.csproj.CoreCompileInputs.cache
+C:\Users\agusf\source\repos\tp4 laboratorio2\Excepciones\obj\Debug\Excepciones.dll
+C:\Users\agusf\source\repos\tp4 laboratorio2\Excepciones\obj\Debug\Excepciones.pdb

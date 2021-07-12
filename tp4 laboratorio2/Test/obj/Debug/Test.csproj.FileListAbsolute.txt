@@ -1,0 +1,17 @@
+C:\Users\agusf\source\repos\tp4 laboratorio2\Test\bin\Debug\Test.exe.config
+C:\Users\agusf\source\repos\tp4 laboratorio2\Test\bin\Debug\Test.exe
+C:\Users\agusf\source\repos\tp4 laboratorio2\Test\bin\Debug\Test.pdb
+C:\Users\agusf\source\repos\tp4 laboratorio2\Test\bin\Debug\Archivos.dll
+C:\Users\agusf\source\repos\tp4 laboratorio2\Test\bin\Debug\Entidades.dll
+C:\Users\agusf\source\repos\tp4 laboratorio2\Test\bin\Debug\Excepciones.dll
+C:\Users\agusf\source\repos\tp4 laboratorio2\Test\bin\Debug\FrmPrincipal.exe
+C:\Users\agusf\source\repos\tp4 laboratorio2\Test\bin\Debug\Archivos.pdb
+C:\Users\agusf\source\repos\tp4 laboratorio2\Test\bin\Debug\Entidades.pdb
+C:\Users\agusf\source\repos\tp4 laboratorio2\Test\bin\Debug\Excepciones.pdb
+C:\Users\agusf\source\repos\tp4 laboratorio2\Test\bin\Debug\FrmPrincipal.pdb
+C:\Users\agusf\source\repos\tp4 laboratorio2\Test\bin\Debug\FrmPrincipal.exe.config
+C:\Users\agusf\source\repos\tp4 laboratorio2\Test\obj\Debug\Test.csproj.AssemblyReference.cache
+C:\Users\agusf\source\repos\tp4 laboratorio2\Test\obj\Debug\Test.csproj.CoreCompileInputs.cache
+C:\Users\agusf\source\repos\tp4 laboratorio2\Test\obj\Debug\Test.csproj.CopyComplete
+C:\Users\agusf\source\repos\tp4 laboratorio2\Test\obj\Debug\Test.exe
+C:\Users\agusf\source\repos\tp4 laboratorio2\Test\obj\Debug\Test.pdb
