@@ -107,7 +107,19 @@ namespace FrmPrincipal
 
         }
 
-     
-     
+        private void FrmComprarCartas_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            DialogResult resultado = MessageBox.Show("volver al menu?", "elija", MessageBoxButtons.YesNo);
+
+            if (resultado == DialogResult.No)
+            {
+                e.Cancel = true; //cancelo la directiva del salir
+            }
+            else
+            {
+                Program.frmFabricaPegasus.Show();
+              
+            }
+        }
     }
 }

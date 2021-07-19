@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.31112.23
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entidades", "Entidades\Entidades.csproj", "{50E43832-436D-4747-B743-F0491AC170FF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrmPrincipal", "FrmPrincipal\FrmPrincipal.csproj", "{163CDE46-CD29-4130-A5D4-C29500128252}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrmTp4", "FrmPrincipal\FrmTp4.csproj", "{163CDE46-CD29-4130-A5D4-C29500128252}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Archivos", "Archivos\Archivos.csproj", "{51157DEC-8DEE-46EE-B280-68A3D043ACEF}"
 EndProject

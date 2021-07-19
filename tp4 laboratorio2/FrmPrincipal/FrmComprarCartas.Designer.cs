@@ -191,6 +191,7 @@ namespace FrmPrincipal
             this.Name = "FrmComprarCartas";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmCrearDeck";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FrmComprarCartas_FormClosing);
             this.Load += new System.EventHandler(this.FrmComprarCarta_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dtgCartas)).EndInit();
             this.ResumeLayout(false);

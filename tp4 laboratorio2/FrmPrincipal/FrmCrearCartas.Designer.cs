@@ -138,6 +138,7 @@ namespace FrmPrincipal
             this.Name = "FrmCrearCartas";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmCrearCartas";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FrmCrearCartas_FormClosing);
             this.Load += new System.EventHandler(this.FrmCrearCartas_Load);
             ((System.ComponentModel.ISupportInitialize)(this.gdvCartasPorCrear)).EndInit();
             this.ResumeLayout(false);

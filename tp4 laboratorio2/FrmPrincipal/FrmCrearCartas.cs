@@ -70,6 +70,7 @@ namespace FrmPrincipal
                 //FabricaPegasus.GuardarTodo();
                 this.GuardarEnFrmCrearCartas.Invoke();
                 rtbInfoMateriales.Text = FabricaPegasus.MostrarMaterialesFabrica();
+                this.gdvCartasPorCrear.DataSource = FabricaPegasus.ActualizarCartas(); //paso al datagrid la lista de cartas disponibles
             }
             catch (Exception ex)
             {
@@ -158,6 +159,21 @@ namespace FrmPrincipal
         private void lblMateriales_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void FrmCrearCartas_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            DialogResult resultado = MessageBox.Show("volver al menu?", "elija", MessageBoxButtons.YesNo);
+
+            if (resultado == DialogResult.No)
+            {
+                e.Cancel = true; //cancelo la directiva del salir
+            }
+            else 
+            {
+                Program.frmFabricaPegasus.Show();
+                CerrarHiloMateriales();
+            }
         }
     }
 }

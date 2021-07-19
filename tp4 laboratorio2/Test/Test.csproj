@@ -62,9 +62,9 @@
       <Project>{4a215149-5520-436d-b736-ab2faeeef59d}</Project>
       <Name>Excepciones</Name>
     </ProjectReference>
-    <ProjectReference Include="..\FrmPrincipal\FrmPrincipal.csproj">
+    <ProjectReference Include="..\FrmPrincipal\FrmTp4.csproj">
       <Project>{163cde46-cd29-4130-a5d4-c29500128252}</Project>
-      <Name>FrmPrincipal</Name>
+      <Name>FrmTp4</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
