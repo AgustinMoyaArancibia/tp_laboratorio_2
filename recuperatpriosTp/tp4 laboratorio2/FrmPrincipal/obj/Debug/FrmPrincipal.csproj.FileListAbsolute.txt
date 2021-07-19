@@ -1,0 +1,135 @@
+C:\Users\agusf\source\repos\Tp3\FrmPrincipal\bin\Debug\FrmPrincipal.exe.config
+C:\Users\agusf\source\repos\Tp3\FrmPrincipal\bin\Debug\FrmPrincipal.exe
+C:\Users\agusf\source\repos\Tp3\FrmPrincipal\bin\Debug\FrmPrincipal.pdb
+C:\Users\agusf\source\repos\Tp3\FrmPrincipal\bin\Debug\Archivos.dll
+C:\Users\agusf\source\repos\Tp3\FrmPrincipal\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\agusf\source\repos\Tp3\FrmPrincipal\bin\Debug\Entidades.dll
+C:\Users\agusf\source\repos\Tp3\FrmPrincipal\bin\Debug\SpreadsheetLight.dll
+C:\Users\agusf\source\repos\Tp3\FrmPrincipal\bin\Debug\System.Drawing.Common.dll
+C:\Users\agusf\source\repos\Tp3\FrmPrincipal\bin\Debug\System.IO.Packaging.dll
+C:\Users\agusf\source\repos\Tp3\FrmPrincipal\bin\Debug\Excepciones.dll
+C:\Users\agusf\source\repos\Tp3\FrmPrincipal\bin\Debug\Archivos.pdb
+C:\Users\agusf\source\repos\Tp3\FrmPrincipal\bin\Debug\Entidades.pdb
+C:\Users\agusf\source\repos\Tp3\FrmPrincipal\bin\Debug\DocumentFormat.OpenXml.xml
+C:\Users\agusf\source\repos\Tp3\FrmPrincipal\bin\Debug\SpreadsheetLight.xml
+C:\Users\agusf\source\repos\Tp3\FrmPrincipal\bin\Debug\System.IO.Packaging.xml
+C:\Users\agusf\source\repos\Tp3\FrmPrincipal\bin\Debug\Excepciones.pdb
+C:\Users\agusf\source\repos\Tp3\FrmPrincipal\obj\Debug\FrmPrincipal.csprojAssemblyReference.cache
+C:\Users\agusf\source\repos\Tp3\FrmPrincipal\obj\Debug\FrmPrincipal.csproj.ResolveComReference.cache
+C:\Users\agusf\source\repos\Tp3\FrmPrincipal\obj\Debug\FrmPrincipal.FrmFabricaPegasus.resources
+C:\Users\agusf\source\repos\Tp3\FrmPrincipal\obj\Debug\FrmPrincipal.FrmCrearCartas.resources
+C:\Users\agusf\source\repos\Tp3\FrmPrincipal\obj\Debug\FrmPrincipal.FrmCrearDeck.resources
+C:\Users\agusf\source\repos\Tp3\FrmPrincipal\obj\Debug\FrmPrincipal.Properties.Resources.resources
+C:\Users\agusf\source\repos\Tp3\FrmPrincipal\obj\Debug\FrmPrincipal.csproj.GenerateResource.cache
+C:\Users\agusf\source\repos\Tp3\FrmPrincipal\obj\Debug\FrmPrincipal.csproj.CoreCompileInputs.cache
+C:\Users\agusf\source\repos\Tp3\FrmPrincipal\obj\Debug\FrmPrincipal.csproj.CopyComplete
+C:\Users\agusf\source\repos\Tp3\FrmPrincipal\obj\Debug\FrmPrincipal.exe
+C:\Users\agusf\source\repos\Tp3\FrmPrincipal\obj\Debug\FrmPrincipal.pdb
+C:\Users\agusf\Desktop\tp_laboratorio_2\tp3 laboratorio2\FrmPrincipal\bin\Debug\FrmPrincipal.exe.config
+C:\Users\agusf\Desktop\tp_laboratorio_2\tp3 laboratorio2\FrmPrincipal\bin\Debug\FrmPrincipal.exe
+C:\Users\agusf\Desktop\tp_laboratorio_2\tp3 laboratorio2\FrmPrincipal\bin\Debug\FrmPrincipal.pdb
+C:\Users\agusf\Desktop\tp_laboratorio_2\tp3 laboratorio2\FrmPrincipal\bin\Debug\Archivos.dll
+C:\Users\agusf\Desktop\tp_laboratorio_2\tp3 laboratorio2\FrmPrincipal\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\agusf\Desktop\tp_laboratorio_2\tp3 laboratorio2\FrmPrincipal\bin\Debug\Entidades.dll
+C:\Users\agusf\Desktop\tp_laboratorio_2\tp3 laboratorio2\FrmPrincipal\bin\Debug\SpreadsheetLight.dll
+C:\Users\agusf\Desktop\tp_laboratorio_2\tp3 laboratorio2\FrmPrincipal\bin\Debug\System.Drawing.Common.dll
+C:\Users\agusf\Desktop\tp_laboratorio_2\tp3 laboratorio2\FrmPrincipal\bin\Debug\System.IO.Packaging.dll
+C:\Users\agusf\Desktop\tp_laboratorio_2\tp3 laboratorio2\FrmPrincipal\bin\Debug\Excepciones.dll
+C:\Users\agusf\Desktop\tp_laboratorio_2\tp3 laboratorio2\FrmPrincipal\bin\Debug\Archivos.pdb
+C:\Users\agusf\Desktop\tp_laboratorio_2\tp3 laboratorio2\FrmPrincipal\bin\Debug\Entidades.pdb
+C:\Users\agusf\Desktop\tp_laboratorio_2\tp3 laboratorio2\FrmPrincipal\bin\Debug\DocumentFormat.OpenXml.xml
+C:\Users\agusf\Desktop\tp_laboratorio_2\tp3 laboratorio2\FrmPrincipal\bin\Debug\SpreadsheetLight.xml
+C:\Users\agusf\Desktop\tp_laboratorio_2\tp3 laboratorio2\FrmPrincipal\bin\Debug\System.IO.Packaging.xml
+C:\Users\agusf\Desktop\tp_laboratorio_2\tp3 laboratorio2\FrmPrincipal\bin\Debug\Excepciones.pdb
+C:\Users\agusf\Desktop\tp_laboratorio_2\tp3 laboratorio2\FrmPrincipal\obj\Debug\FrmPrincipal.csprojAssemblyReference.cache
+C:\Users\agusf\Desktop\tp_laboratorio_2\tp3 laboratorio2\FrmPrincipal\obj\Debug\FrmPrincipal.csproj.ResolveComReference.cache
+C:\Users\agusf\Desktop\tp_laboratorio_2\tp3 laboratorio2\FrmPrincipal\obj\Debug\FrmPrincipal.FrmFabricaPegasus.resources
+C:\Users\agusf\Desktop\tp_laboratorio_2\tp3 laboratorio2\FrmPrincipal\obj\Debug\FrmPrincipal.FrmCrearCartas.resources
+C:\Users\agusf\Desktop\tp_laboratorio_2\tp3 laboratorio2\FrmPrincipal\obj\Debug\FrmPrincipal.FrmCrearDeck.resources
+C:\Users\agusf\Desktop\tp_laboratorio_2\tp3 laboratorio2\FrmPrincipal\obj\Debug\FrmPrincipal.Properties.Resources.resources
+C:\Users\agusf\Desktop\tp_laboratorio_2\tp3 laboratorio2\FrmPrincipal\obj\Debug\FrmPrincipal.csproj.GenerateResource.cache
+C:\Users\agusf\Desktop\tp_laboratorio_2\tp3 laboratorio2\FrmPrincipal\obj\Debug\FrmPrincipal.csproj.CoreCompileInputs.cache
+C:\Users\agusf\Desktop\tp_laboratorio_2\tp3 laboratorio2\FrmPrincipal\obj\Debug\FrmPrincipal.csproj.CopyComplete
+C:\Users\agusf\Desktop\tp_laboratorio_2\tp3 laboratorio2\FrmPrincipal\obj\Debug\FrmPrincipal.exe
+C:\Users\agusf\Desktop\tp_laboratorio_2\tp3 laboratorio2\FrmPrincipal\obj\Debug\FrmPrincipal.pdb
+C:\Users\agusf\source\repos\tp3 laboratorio2\FrmPrincipal\bin\Debug\FrmPrincipal.exe.config
+C:\Users\agusf\source\repos\tp3 laboratorio2\FrmPrincipal\bin\Debug\FrmPrincipal.exe
+C:\Users\agusf\source\repos\tp3 laboratorio2\FrmPrincipal\bin\Debug\FrmPrincipal.pdb
+C:\Users\agusf\source\repos\tp3 laboratorio2\FrmPrincipal\bin\Debug\Archivos.dll
+C:\Users\agusf\source\repos\tp3 laboratorio2\FrmPrincipal\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\agusf\source\repos\tp3 laboratorio2\FrmPrincipal\bin\Debug\Entidades.dll
+C:\Users\agusf\source\repos\tp3 laboratorio2\FrmPrincipal\bin\Debug\Excepciones.dll
+C:\Users\agusf\source\repos\tp3 laboratorio2\FrmPrincipal\bin\Debug\SpreadsheetLight.dll
+C:\Users\agusf\source\repos\tp3 laboratorio2\FrmPrincipal\bin\Debug\System.Drawing.Common.dll
+C:\Users\agusf\source\repos\tp3 laboratorio2\FrmPrincipal\bin\Debug\System.IO.Packaging.dll
+C:\Users\agusf\source\repos\tp3 laboratorio2\FrmPrincipal\bin\Debug\Archivos.pdb
+C:\Users\agusf\source\repos\tp3 laboratorio2\FrmPrincipal\bin\Debug\Entidades.pdb
+C:\Users\agusf\source\repos\tp3 laboratorio2\FrmPrincipal\bin\Debug\Excepciones.pdb
+C:\Users\agusf\source\repos\tp3 laboratorio2\FrmPrincipal\bin\Debug\DocumentFormat.OpenXml.xml
+C:\Users\agusf\source\repos\tp3 laboratorio2\FrmPrincipal\bin\Debug\SpreadsheetLight.xml
+C:\Users\agusf\source\repos\tp3 laboratorio2\FrmPrincipal\bin\Debug\System.IO.Packaging.xml
+C:\Users\agusf\source\repos\tp3 laboratorio2\FrmPrincipal\obj\Debug\FrmPrincipal.csproj.AssemblyReference.cache
+C:\Users\agusf\source\repos\tp3 laboratorio2\FrmPrincipal\obj\Debug\FrmPrincipal.csproj.ResolveComReference.cache
+C:\Users\agusf\source\repos\tp3 laboratorio2\FrmPrincipal\obj\Debug\FrmPrincipal.FrmFabricaPegasus.resources
+C:\Users\agusf\source\repos\tp3 laboratorio2\FrmPrincipal\obj\Debug\FrmPrincipal.FrmCrearCartas.resources
+C:\Users\agusf\source\repos\tp3 laboratorio2\FrmPrincipal\obj\Debug\FrmPrincipal.FrmComprarCartas.resources
+C:\Users\agusf\source\repos\tp3 laboratorio2\FrmPrincipal\obj\Debug\FrmPrincipal.Properties.Resources.resources
+C:\Users\agusf\source\repos\tp3 laboratorio2\FrmPrincipal\obj\Debug\FrmPrincipal.csproj.GenerateResource.cache
+C:\Users\agusf\source\repos\tp3 laboratorio2\FrmPrincipal\obj\Debug\FrmPrincipal.csproj.CoreCompileInputs.cache
+C:\Users\agusf\source\repos\tp3 laboratorio2\FrmPrincipal\obj\Debug\FrmPrincipal.csproj.CopyComplete
+C:\Users\agusf\source\repos\tp3 laboratorio2\FrmPrincipal\obj\Debug\FrmPrincipal.exe
+C:\Users\agusf\source\repos\tp3 laboratorio2\FrmPrincipal\obj\Debug\FrmPrincipal.pdb
+C:\Users\agusf\source\repos\tp4 laboratorio2\FrmPrincipal\bin\Debug\FrmPrincipal.exe.config
+C:\Users\agusf\source\repos\tp4 laboratorio2\FrmPrincipal\bin\Debug\FrmPrincipal.exe
+C:\Users\agusf\source\repos\tp4 laboratorio2\FrmPrincipal\bin\Debug\FrmPrincipal.pdb
+C:\Users\agusf\source\repos\tp4 laboratorio2\FrmPrincipal\bin\Debug\Archivos.dll
+C:\Users\agusf\source\repos\tp4 laboratorio2\FrmPrincipal\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\agusf\source\repos\tp4 laboratorio2\FrmPrincipal\bin\Debug\Entidades.dll
+C:\Users\agusf\source\repos\tp4 laboratorio2\FrmPrincipal\bin\Debug\Excepciones.dll
+C:\Users\agusf\source\repos\tp4 laboratorio2\FrmPrincipal\bin\Debug\SpreadsheetLight.dll
+C:\Users\agusf\source\repos\tp4 laboratorio2\FrmPrincipal\bin\Debug\System.Drawing.Common.dll
+C:\Users\agusf\source\repos\tp4 laboratorio2\FrmPrincipal\bin\Debug\System.IO.Packaging.dll
+C:\Users\agusf\source\repos\tp4 laboratorio2\FrmPrincipal\bin\Debug\Archivos.pdb
+C:\Users\agusf\source\repos\tp4 laboratorio2\FrmPrincipal\bin\Debug\Entidades.pdb
+C:\Users\agusf\source\repos\tp4 laboratorio2\FrmPrincipal\bin\Debug\Excepciones.pdb
+C:\Users\agusf\source\repos\tp4 laboratorio2\FrmPrincipal\bin\Debug\DocumentFormat.OpenXml.xml
+C:\Users\agusf\source\repos\tp4 laboratorio2\FrmPrincipal\bin\Debug\SpreadsheetLight.xml
+C:\Users\agusf\source\repos\tp4 laboratorio2\FrmPrincipal\bin\Debug\System.IO.Packaging.xml
+C:\Users\agusf\source\repos\tp4 laboratorio2\FrmPrincipal\obj\Debug\FrmPrincipal.csproj.AssemblyReference.cache
+C:\Users\agusf\source\repos\tp4 laboratorio2\FrmPrincipal\obj\Debug\FrmPrincipal.csproj.ResolveComReference.cache
+C:\Users\agusf\source\repos\tp4 laboratorio2\FrmPrincipal\obj\Debug\FrmPrincipal.FrmFabricaPegasus.resources
+C:\Users\agusf\source\repos\tp4 laboratorio2\FrmPrincipal\obj\Debug\FrmPrincipal.FrmCrearCartas.resources
+C:\Users\agusf\source\repos\tp4 laboratorio2\FrmPrincipal\obj\Debug\FrmPrincipal.FrmComprarCartas.resources
+C:\Users\agusf\source\repos\tp4 laboratorio2\FrmPrincipal\obj\Debug\FrmPrincipal.Properties.Resources.resources
+C:\Users\agusf\source\repos\tp4 laboratorio2\FrmPrincipal\obj\Debug\FrmPrincipal.csproj.GenerateResource.cache
+C:\Users\agusf\source\repos\tp4 laboratorio2\FrmPrincipal\obj\Debug\FrmPrincipal.csproj.CoreCompileInputs.cache
+C:\Users\agusf\source\repos\tp4 laboratorio2\FrmPrincipal\obj\Debug\FrmPrincipal.csproj.CopyComplete
+C:\Users\agusf\source\repos\tp4 laboratorio2\FrmPrincipal\obj\Debug\FrmPrincipal.exe
+C:\Users\agusf\source\repos\tp4 laboratorio2\FrmPrincipal\obj\Debug\FrmPrincipal.pdb
+C:\Users\agusf\Desktop\tp_laboratorio_2\tp4 laboratorio2\FrmPrincipal\bin\Debug\FrmPrincipal.exe.config
+C:\Users\agusf\Desktop\tp_laboratorio_2\tp4 laboratorio2\FrmPrincipal\bin\Debug\FrmPrincipal.exe
+C:\Users\agusf\Desktop\tp_laboratorio_2\tp4 laboratorio2\FrmPrincipal\bin\Debug\FrmPrincipal.pdb
+C:\Users\agusf\Desktop\tp_laboratorio_2\tp4 laboratorio2\FrmPrincipal\bin\Debug\Archivos.dll
+C:\Users\agusf\Desktop\tp_laboratorio_2\tp4 laboratorio2\FrmPrincipal\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\agusf\Desktop\tp_laboratorio_2\tp4 laboratorio2\FrmPrincipal\bin\Debug\Entidades.dll
+C:\Users\agusf\Desktop\tp_laboratorio_2\tp4 laboratorio2\FrmPrincipal\bin\Debug\Excepciones.dll
+C:\Users\agusf\Desktop\tp_laboratorio_2\tp4 laboratorio2\FrmPrincipal\bin\Debug\SpreadsheetLight.dll
+C:\Users\agusf\Desktop\tp_laboratorio_2\tp4 laboratorio2\FrmPrincipal\bin\Debug\System.Drawing.Common.dll
+C:\Users\agusf\Desktop\tp_laboratorio_2\tp4 laboratorio2\FrmPrincipal\bin\Debug\System.IO.Packaging.dll
+C:\Users\agusf\Desktop\tp_laboratorio_2\tp4 laboratorio2\FrmPrincipal\bin\Debug\Archivos.pdb
+C:\Users\agusf\Desktop\tp_laboratorio_2\tp4 laboratorio2\FrmPrincipal\bin\Debug\Entidades.pdb
+C:\Users\agusf\Desktop\tp_laboratorio_2\tp4 laboratorio2\FrmPrincipal\bin\Debug\Excepciones.pdb
+C:\Users\agusf\Desktop\tp_laboratorio_2\tp4 laboratorio2\FrmPrincipal\bin\Debug\DocumentFormat.OpenXml.xml
+C:\Users\agusf\Desktop\tp_laboratorio_2\tp4 laboratorio2\FrmPrincipal\bin\Debug\SpreadsheetLight.xml
+C:\Users\agusf\Desktop\tp_laboratorio_2\tp4 laboratorio2\FrmPrincipal\bin\Debug\System.IO.Packaging.xml
+C:\Users\agusf\Desktop\tp_laboratorio_2\tp4 laboratorio2\FrmPrincipal\obj\Debug\FrmPrincipal.csproj.AssemblyReference.cache
+C:\Users\agusf\Desktop\tp_laboratorio_2\tp4 laboratorio2\FrmPrincipal\obj\Debug\FrmPrincipal.csproj.ResolveComReference.cache
+C:\Users\agusf\Desktop\tp_laboratorio_2\tp4 laboratorio2\FrmPrincipal\obj\Debug\FrmPrincipal.FrmFabricaPegasus.resources
+C:\Users\agusf\Desktop\tp_laboratorio_2\tp4 laboratorio2\FrmPrincipal\obj\Debug\FrmPrincipal.FrmCrearCartas.resources
+C:\Users\agusf\Desktop\tp_laboratorio_2\tp4 laboratorio2\FrmPrincipal\obj\Debug\FrmPrincipal.FrmComprarCartas.resources
+C:\Users\agusf\Desktop\tp_laboratorio_2\tp4 laboratorio2\FrmPrincipal\obj\Debug\FrmPrincipal.Properties.Resources.resources
+C:\Users\agusf\Desktop\tp_laboratorio_2\tp4 laboratorio2\FrmPrincipal\obj\Debug\FrmPrincipal.csproj.GenerateResource.cache
+C:\Users\agusf\Desktop\tp_laboratorio_2\tp4 laboratorio2\FrmPrincipal\obj\Debug\FrmPrincipal.csproj.CoreCompileInputs.cache
+C:\Users\agusf\Desktop\tp_laboratorio_2\tp4 laboratorio2\FrmPrincipal\obj\Debug\FrmPrincipal.csproj.CopyComplete
+C:\Users\agusf\Desktop\tp_laboratorio_2\tp4 laboratorio2\FrmPrincipal\obj\Debug\FrmPrincipal.exe
+C:\Users\agusf\Desktop\tp_laboratorio_2\tp4 laboratorio2\FrmPrincipal\obj\Debug\FrmPrincipal.pdb
